@@ -1,0 +1,24 @@
+{
+  "name": "commentservice",
+  "version": "1.0.0",
+  "description": "comment service as restful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patevn/CommentService.git"
+  },
+  "author": "Peter McNaught",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patevn/CommentService/issues"
+  },
+  "homepage": "https://github.com/patevn/CommentService#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4"
+  }
+}
