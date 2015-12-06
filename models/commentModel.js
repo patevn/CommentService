@@ -4,10 +4,10 @@ var mongoose = require('mongoose'),
 var commentModel = new Schema({
 	title: {type: String},
 	author: {type: String},
-	genre: {type: String},
+	comment: {type: String},
 	read: {type: Boolean, default:false}
 });
 
 
-//this loads the model into mongosse
+//this loads the model into mongoose, comment being the schema
 module.exports=mongoose.model('comment', commentModel);
